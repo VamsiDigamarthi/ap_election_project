@@ -1,0 +1,230 @@
+.learning__main__card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.quize__text__contra {
+  font-family: "Tangerine", cursive;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .quize__text__contra {
+    font-size: 42px;
+  }
+}
+
+.video__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  gap: 2rem;
+  overflow-y: scroll;
+  /* border: 2px solid red; */
+}
+
+.video__player__multi__card {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.video__player__multi__card > div {
+  width: 46%;
+  /* border: 2px solid red; */
+}
+
+@media (max-width: 768px) {
+  .video__player__multi__card {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .video__player__multi__card > div {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+}
+
+.video__card > .video__to__quize__div {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.video__to__quize__div > button {
+  width: 190px;
+  height: 40px;
+  background-color: #ff5c41;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.quize__main__card {
+  /* border: 2px solid red; */
+  width: 103.7%;
+  height: 100%;
+  display: flex;
+  margin: -20px;
+
+  /* border: 2px solid red; */
+}
+
+.quize__left__quetions {
+  background-color: #232e38;
+  width: 50%;
+  height: 106.7%;
+  background-color: #def7e5;
+  padding: 40px;
+  background-color: #114b5f;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.quize__left__quetions > h4 {
+  color: #ffff;
+}
+
+.questions__number__card {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.questions__number__card > div {
+  padding: 12px;
+  border-radius: 50%;
+  color: lightslategray;
+}
+
+.currect__question {
+  background-color: aqua;
+}
+.next__qustion {
+  background-color: #3c515c;
+}
+
+/* .questions__number__card > :nth-child(4) {
+ 
+}
+.questions__number__card > :nth-child(5) {
+  background-color: #3c515c;
+}
+.questions__number__card > :nth-child(6) {
+  background-color: #3c515c;
+}
+.questions__number__card > :nth-child(7) {
+  background-color: #3c515c;
+}
+.questions__number__card > :nth-child(8) {
+  background-color: #3c515c;
+}
+.questions__number__card > :nth-child(9) {
+  background-color: #3c515c;
+}
+.questions__number__card > :nth-child(10) {
+  background-color: #3c515c;
+} */
+
+.question__card__main {
+  height: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.question__card__main > h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/*  */
+/*  */
+.quize__right__answer {
+  background-color: #def7e5;
+  width: 50%;
+  height: 106.7%;
+  /* background-color: #1ebd4b; */
+  /* background-color: #232e38; */
+  background-color: #114b5f;
+  background-color: #def7e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quize__answer__card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.a_quize_cardssss {
+  display: flex;
+  gap: 1.4rem;
+}
+.a_quize_cardssss > span {
+  background-color: #d2e9d9;
+  padding: 20px;
+  font-size: 18px;
+  color: lightslategray;
+}
+.a_quize_cardssss > :nth-child(1) {
+  border-radius: 50%;
+}
+.a_quize_cardssss > :nth-child(2) {
+  border-radius: 30px;
+  min-width: 200px;
+}
+
+@media (max-width: 768px) {
+  /* .learning__main__card {
+    min-height: 200%;
+    background-color: red;
+  } */
+  .quize__main__card {
+    flex-direction: column;
+  }
+  .quize__left__quetions {
+    width: 103.5%;
+    height: 106.7%;
+  }
+  .quize__right__answer {
+    width: 103.5%;
+    height: 106.7%;
+  }
+  .question__card__main > h1 {
+    font-size: 22px;
+  }
+  .quize__answer__card {
+    gap: 1rem;
+  }
+  .a_quize_cardssss {
+    gap: 0.8rem;
+  }
+  .a_quize_cardssss > :nth-child(1) {
+    display: none;
+  }
+  .a_quize_cardssss > span {
+    padding: 10px;
+  }
+}

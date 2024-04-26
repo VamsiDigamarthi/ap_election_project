@@ -1,0 +1,272 @@
+.state__coor__assigntask__main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* border: 2px solid red; */
+}
+
+.tosted {
+  position: absolute;
+  top: 0;
+}
+
+.state__coor__main__modal__card {
+  width: 100%;
+  background-color: #fff;
+  height: 80%;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  overflow-y: scroll;
+  /* border: 2px solid red; */
+}
+.which__task__open__card {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  /* justify-content: space-between; */
+  font-size: 20px;
+  color: #636060;
+}
+
+.state__assigntask__filter__card {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-self: start;
+}
+
+.state__assigntask__filter__card > select {
+  width: 80%;
+  border: 2px solid rgb(201, 195, 195);
+  height: 35px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 17px;
+}
+.state__assigntask__filter__card > button {
+  width: 15%;
+  background-color: #ff5c41;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.state__district__coor__not__found__card {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.state__district__coor__available__data {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.state__district__filter__name__card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.state__district__filter__name__card > span > span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff5c41;
+}
+.assign__task__text__show__display__main__card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.assign__task__text__show__display__main__card > :nth-child(1) {
+  font-size: 18px;
+}
+.state__assign__task__card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.state__assign__task__card > select {
+  width: 40%;
+  border: 2px solid rgb(201, 195, 195);
+  height: 35px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 17px;
+}
+
+.state__assign__task__card > button {
+  width: 15%;
+  background-color: #ff5c41;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-size: 17px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.all__task__display__state__coo__card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  /* justify-content: flex-start; */
+}
+.all__task__display__state__coo__card__h3 {
+  /* border-bottom: 2px solid rgb(199, 195, 195); */
+  border-bottom: 2px solid rgb(238, 236, 236);
+  padding: 3px;
+}
+
+.display__each__task {
+  margin-left: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  /* border: 1px solid red; */
+  gap: 1rem;
+  width: 98%;
+  border-bottom: 1px solid rgb(201, 209, 218);
+}
+
+/* .display__each__task > :nth-child(1) {
+  font-size: 18px;
+} */
+.display__each__task > :nth-child(2) {
+  font-size: 18px;
+}
+
+.task__completed {
+  color: green;
+}
+
+.task__not__completed {
+  color: orange;
+}
+
+@media (max-width: 768px) {
+  .state__coor__assigntask__main > :nth-child(1) {
+    font-size: 18px;
+  }
+  .state__coor__main__modal__card {
+    padding: 6px;
+  }
+  .which__task__open__card {
+    flex-direction: column;
+  }
+}
+
+/*  */
+
+/*  */
+
+.newly-added-static-taskss {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.newly-added-static-taskss > div {
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.newly-added-static-taskss > div > button {
+  width: 200px;
+  height: 35px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 2px solid lightslategray;
+  cursor: pointer;
+}
+
+.newly-added-subtasks-district-coor-card {
+  /* border: 2px solid red; */
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.newly-states-coor-task-distric-confirm-card {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  /* align-items: center; */
+  align-items: flex-end;
+  gap: 0.5rem;
+  /* border: 2px solid red; */
+}
+
+.newly-states-coor-task-distric-confirm-card > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.newly-states-coor-task-distric-confirm-card > div > button {
+  width: 170px;
+  height: 30px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+.newly-states-coor-task-distric-confirm-card > div > :nth-child(1) {
+  background-color: green;
+}
+
+.newly-states-coor-task-distric-confirm-card > div > :nth-child(2) {
+  background-color: rgb(238, 117, 5);
+}
+
+.nnnn-rechecking-process-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.nnnn-rechecking-process-card > div {
+  display: flex;
+  gap: 1rem;
+}
+.nnnn-rechecking-process-card > div > button {
+  width: 170px;
+  height: 30px;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+.nnnn-rechecking-process-card > div > :nth-child(1) {
+  background-color: green;
+}
+.nnnn-rechecking-process-card > div > :nth-child(2) {
+  background-color: rgb(238, 117, 5);
+}

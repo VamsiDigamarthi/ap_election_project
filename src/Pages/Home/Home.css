@@ -1,0 +1,256 @@
+.super__admin__main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #fff;
+  width: 100%;
+  /* border: 2px solid red; */
+  height: 100%;
+}
+
+.super__admin__second__main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* color: #fff; */
+  width: 100%;
+  /* border: 2px solid red; */
+  height: 100%;
+  overflow: scroll;
+}
+
+@media (min-width: 768px) {
+  .new__over__view {
+    display: none;
+  }
+}
+
+.super__admin__main__cats__card {
+  width: 100%;
+  /* background-color: #1c1d1f; */
+  /* background-color: #333333; */
+  border-radius: 7px;
+  /* height: 350px; */
+  padding: 20px 20px;
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: lightslategrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chats_first_card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 60%;
+  /* border: 2px solid rgb(134, 108, 108); */
+}
+.all__cam__card {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  /* border: 2px solid red; */
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.chats_first_card > span {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.super_admin_car_number_card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* box-shadow: #ff6f003b 0px 4px 12px; */
+  width: 28%;
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: rgba(175, 174, 174, 0.2) 0px 2px 8px 0px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+.super_admin_car_number_card > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.super_admin_car_number_card > div > h3 {
+  margin: 5px;
+}
+
+.super_admin_car_number_card > :nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icond__back__change {
+  background-color: rgb(132, 232, 245);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.cam_percentage_card {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(132, 232, 245);
+}
+
+.chats_second_card {
+  width: 35%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.chart__card {
+  /* border: 2px solid red; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: lightslategrey;
+}
+
+.chart__card > h4 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .super__admin__main__cats__card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.file_type_not_match {
+  color: #ff6f00;
+}
+
+.side_bar_upload_cams_data_card {
+  color: lightslategrey;
+}
+
+.coresponding__district__main {
+  width: 100%;
+  /* border: 2px solid red; */
+  padding: 30px;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* background-color: #333333; */
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+.district__cor__name__card {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.district__cor__name__card > :nth-child(2) {
+  font-size: 19px;
+  color: #ff6f00;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .super__admin__main {
+    min-height: 100vh;
+    background-color: transparent;
+  }
+  .super__admin__main__cats__card {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+    /* overflow-y: scroll; */
+    /* height: 1000px; */
+    /* border: 2px solid red; */
+  }
+  .super__admin__second__main {
+    overflow-y: scroll;
+  }
+  .chats_first_card {
+    width: 100%;
+  }
+  .all__cam__card {
+    flex-direction: column;
+  }
+  .super_admin_car_number_card {
+    width: 100%;
+    height: 180px;
+    gap: 0.8rem;
+  }
+  .bulk__upload__main__card {
+    flex-direction: column;
+    gap: 1rem;
+    /* padding-bottom: 20px; */
+    margin: 0px;
+    /* background-color: #ededef; */
+  }
+  .upload__input__tag {
+    width: 100%;
+  }
+  .bulk__upload__main__card > button {
+    width: 100%;
+    height: 35px;
+  }
+  .side_bar_upload_cams_data_card {
+    display: none;
+  }
+  .chats_second_card {
+    width: 100%;
+  }
+}
+
+/* dfghjkl */
+
+.each-district-values-singless {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.super_admin_car_number_carddd {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* box-shadow: #ff6f003b 0px 4px 12px; */
+  width: 23%;
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: rgba(175, 174, 174, 0.2) 0px 2px 8px 0px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+.super_admin_car_number_carddd > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.super_admin_car_number_carddd > div > h3 {
+  margin: 5px;
+}
+
+.super_admin_car_number_carddd > :nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

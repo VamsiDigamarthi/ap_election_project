@@ -1,0 +1,153 @@
+.profile_main_card {
+  display: flex;
+  flex-direction: column;
+
+  /* gap: 1rem; */
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid red; */
+  overflow: scroll;
+  position: relative;
+}
+.cober-img-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -999;
+  /* background-color: red; */
+  width: 100%;
+  height: 130px;
+}
+.cober-img-card > img {
+  padding: 4px;
+  width: 100%;
+  height: 130px;
+  /* border: 2px solid red; */
+}
+
+.profile-second-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 20px;
+  /* margin-top: 70px; */
+  /* z-index: 9999; */
+}
+.profile_info_card {
+  display: flex;
+  gap: 1rem;
+  /* border: 2px solid yellow; */
+  position: relative;
+  background-color: rgb(238, 204, 204);
+  border-radius: 10px;
+  padding: 10px;
+  align-items: flex-end;
+}
+.profile_info_card > img {
+  width: 150px;
+  border-radius: 20px;
+}
+
+.name_and_designation_profile {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.profile_info_card > div > h2 {
+  color: orangered;
+  font-size: 29px;
+}
+
+.profile-socila-media-btn-card {
+  /* position: absolute;
+  right: 0;
+  top: 0; */
+}
+
+.profile-socila-media-btn-card > button {
+  width: 170px;
+  height: 35px;
+  border: 2px solid orangered;
+  background-color: transparent;
+  color: orangered;
+}
+
+.other-details-main-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  /* height: 700px; */
+  /* border: 2px solid rgb(16, 94, 61); */
+  /* overflow: scroll; */
+}
+.profile-socila-media-btn-card {
+  align-self: flex-end;
+}
+
+.remaining-details {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* border: 2px solid red; */
+}
+
+.remaining-details > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  padding-bottom: 15px;
+}
+
+.remaining-details > div > :nth-child(1) {
+  color: lightslategray;
+}
+.remaining-details > div > :nth-child(2) {
+  color: orangered;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.remainng-details-second-card {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.remainng-details-second-card > img {
+  width: 100%;
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .profile_main_card {
+    margin-bottom: 20px;
+  }
+  .profile_info_card > div {
+    left: 52%;
+    top: 26%;
+  }
+  .other-details-main-card {
+    flex-direction: column;
+    gap: 1rem;
+
+    margin-bottom: 20px;
+    top: 36%;
+  }
+  .remaining-details {
+    width: 100%;
+  }
+  .remainng-details-second-card {
+    width: 100%;
+  }
+  .cover_image {
+    height: 22%;
+  }
+}

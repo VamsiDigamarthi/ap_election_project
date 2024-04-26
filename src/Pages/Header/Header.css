@@ -1,0 +1,79 @@
+.header__main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__main > :nth-child(1) {
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__main > :nth-child(1) > button {
+  width: 160px;
+  height: 35px;
+  border-radius: 7px;
+  border: 2px solid #ff6f00;
+  color: #ff6f00;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header__main > div > select {
+  width: 30%;
+  height: 35px;
+  /* color: #fff; */
+
+  background-color: transparent;
+  border-radius: 7px;
+  /* margin-right: 20px; */
+  border: 2px solid rgb(194, 189, 189);
+  font-size: 18px;
+  color: rgb(83, 81, 81);
+  outline: none;
+}
+
+/* option {
+  color: #fff;
+  background-color: #0d0d0f;
+ 
+} */
+
+.store-state-inheader {
+  color: black;
+  width: 30%;
+  height: 35px;
+  /* color: #fff; */
+
+  background-color: transparent;
+  border-radius: 7px;
+  /* margin-right: 20px; */
+  /* border: 2px solid rgb(194, 189, 189); */
+  font-size: 18px;
+  color: rgb(83, 81, 81);
+  display: flex;
+  align-items: center;
+}
+
+.store-state-inheader > span > span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .header__main > :nth-child(1) {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .header__main > div > select {
+    width: 97%;
+  }
+  .header__main > :nth-child(1) > button {
+    width: 97%;
+  }
+}

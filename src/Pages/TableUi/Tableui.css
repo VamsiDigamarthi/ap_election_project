@@ -1,0 +1,130 @@
+.task__form__card {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task__form__card > select {
+  width: 100%;
+  height: 40px;
+  border: 2px solid rgb(230, 224, 224);
+  padding: 0px 4px;
+  outline: none;
+  font-size: 18px;
+}
+
+.task__form__card > button {
+  height: 35px;
+  background-color: #ff5c41;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.rejected__task__modal__card {
+  width: 70%;
+  height: 70%;
+  /* border: 2px solid red; */
+  background-color: #f0f0f8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .rejected__task__modal__card {
+    width: 95%;
+  }
+}
+.user__rej__id__task {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 90%;
+
+  overflow-y: scroll;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid rgb(37, 36, 36);
+  border-radius: 8px;
+}
+.user__ac__rejected__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .user__ac__rejected__list {
+    font-size: 10px;
+  }
+}
+
+.user__ac__rejected__list > :nth-child(1) {
+  width: 30%;
+}
+.user__ac__rejected__list > :nth-child(2) {
+  width: 30%;
+}
+.user__ac__rejected__list > :nth-child(3) {
+  width: 30%;
+}
+.user__ac__rejected__list > :nth-child(4) {
+  width: 10%;
+  cursor: pointer;
+  /* background-color: red; */
+}
+
+.rejecte__heade__table {
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  border-bottom: 2px solid rgb(199, 195, 195);
+}
+
+@media (max-width: 768px) {
+  .rejecte__heade__table {
+    font-size: 14px;
+  }
+}
+.rejecte__heade__table > :nth-child(1) {
+  width: 30%;
+}
+.rejecte__heade__table > :nth-child(2) {
+  width: 30%;
+}
+.rejecte__heade__table > :nth-child(3) {
+  width: 30%;
+}
+.rejecte__heade__table > :nth-child(4) {
+  width: 10%;
+}
+
+.already__assign__psnumber_card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.already__assign__psnumber {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.already__assign__psnumber > span {
+  font-size: 20px;
+  color: #ff5c41;
+}
+
+.completed__details__task {
+  width: 80%;
+  height: 40%;
+
+  background-color: #fff;
+  padding: 20px;
+}

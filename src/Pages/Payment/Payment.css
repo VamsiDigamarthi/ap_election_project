@@ -1,0 +1,172 @@
+.payment__method__main__card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* border: 2px solid red; */
+}
+
+.payment__inner__card {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* border: 2px solid yellow; */
+}
+
+.payment__succecc__question__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  width: 35%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.payment__initial__question__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  width: 35%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.payment__buttons {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.payment__buttons > :nth-child(1) {
+  border: 2px solid #0ac914;
+  color: #0ac914;
+  background-color: transparent;
+  font-size: 17px;
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment__buttons > :nth-child(2) {
+  background-color: #ff5c41;
+  border-radius: 5px;
+  font-size: 17px;
+  width: 120px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.paymet__all_done__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.payment__successfully_card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  width: 35%;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.tic_success__card {
+  background-color: #0ac914;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+}
+
+.payment__account__details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: lightslategray;
+}
+
+.payment__text__display__district__details__card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.district__details__show__card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.3rem;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.ditrict__confirm__card {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.ditrict__confirm__card > button {
+  width: 170px;
+  height: 35px;
+  background-color: #0ac914;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .payment__initial__question__card {
+    width: 98%;
+    padding: 30px 10px;
+  }
+  .payment__succecc__question__card {
+    width: 98%;
+    /* padding: 30px 10px; */
+  }
+  .payment__successfully_card {
+    width: 90%;
+  }
+  .district__details__show__card {
+    width: 90%;
+  }
+}

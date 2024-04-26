@@ -1,0 +1,193 @@
+.certificate__main {
+  width: 100%;
+  /* height: 100vh; */
+  /* padding: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.certificate__card {
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+  /* border: 1px solid grey; */
+  width: 100%;
+  /* height: 550px; */
+  /* background-color: aliceblue; */
+  position: relative;
+}
+
+.flower__image {
+  position: absolute;
+  top: 5%;
+  left: 0.1%;
+  /* z-index: -100; */
+  width: 100%;
+}
+
+.certificate__logo__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  /* background-color: red; */
+}
+
+.certificate__logo__card > :nth-child(1) {
+  width: 100px;
+  width: 7vw;
+}
+
+.certificate__logo__card > :nth-child(2) {
+  color: #263a90;
+  font-size: 26px;
+  font-size: 2vw;
+}
+
+.certificate__logo__card > :nth-child(3) {
+  width: 130px;
+  width: 12vw;
+}
+
+.certificate__contras {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.certificate__contras > img {
+  width: 60%;
+  width: 27vw;
+}
+
+.certificate__text__card {
+  position: absolute;
+  top: 36%;
+  left: 31%;
+}
+.certificate__text__card > h1 {
+  font-size: 28px;
+  font-size: 2.15vw;
+}
+
+.certificate__diamond__card {
+  position: absolute;
+  top: 45%;
+  left: 18%;
+  /* background-color: red; */
+  width: 63%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+}
+.certificate__diamond__card > img {
+  width: 40px;
+  width: 3vw;
+}
+.certificate__diamond__card > span {
+  width: 81%;
+  border-bottom: 1px solid rgba(77, 74, 74, 0.89);
+  text-align: center;
+  /* font-style: italic; */
+  font-size: 70px;
+  font-size: 5.3vw;
+  font-family: "Tangerine", cursive;
+  margin: 0px;
+  color: lightslategray;
+  /* font-weight: 900; */
+  /* background-color: gray;
+  height: 40px; */
+  /* background-color: red; */
+}
+
+.certificate__text__card__container {
+  position: absolute;
+  top: 58%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  /* left: 6%; */
+}
+
+.certificate__text__card__container > :nth-child(1) {
+  font-size: 35px;
+  font-size: 2.5vw;
+  /* font-family: "Dancing Script", cursive; */
+}
+
+.certificate__text__card__container > :nth-child(2) {
+  font-size: 27px;
+  font-size: 2vw;
+
+  /* font-family: "Dancing Script", cursive; */
+}
+
+.certificate__left__signa {
+  position: absolute;
+  bottom: 10%;
+  left: 21%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4vw;
+  padding-top: 4px;
+  border-top: 1px solid rgba(77, 74, 74, 0.89);
+}
+
+.certificate__left__signa > span {
+  font-size: 17px;
+  font-size: 1.3vw;
+}
+.certificate__left__signa > h4 {
+  font-size: 17px;
+  font-size: 1.3vw;
+}
+
+.certificate__right__signa {
+  position: absolute;
+  bottom: 10%;
+  right: 21%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4vw;
+  padding-top: 4px;
+  border-top: 1px solid rgba(77, 74, 74, 0.89);
+}
+
+.certificate__right__signa > span {
+  font-size: 17px;
+  font-size: 1.3vw;
+}
+.certificate__right__signa > h4 {
+  font-size: 17px;
+  font-size: 1.3vw;
+}
+
+.download__button__card {
+  width: 90%;
+  /* background-color: red; */
+  margin: 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.download__button__card > button {
+  height: 35px;
+  width: 150px;
+  background-color: transparent;
+  border: 2px solid #ffd500;
+  outline: none;
+}

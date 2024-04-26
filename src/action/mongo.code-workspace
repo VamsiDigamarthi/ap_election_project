@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../../.."
+	},
+	{
+		"path": "../../../../ap-new-project/new-client"
+	},
+	{
+		"path": "../../../../ap-new-project/server"
+	}
+],
+  "settings": {}
+}

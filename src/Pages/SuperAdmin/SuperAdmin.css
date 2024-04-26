@@ -1,0 +1,76 @@
+.super__admin__main__card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  /* background-color: red; */
+  height: 100%;
+}
+
+.file__uploaded_super_main_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+  cursor: pointer;
+  /* border: 2px solid red; */
+}
+
+.bulk__upload__main__card {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  /* height: 35px; */
+  justify-content: space-between;
+  color: #1c1d1f;
+  /* align-items: center; */
+}
+
+.upload__input__tag {
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 10px;
+  width: 80%;
+  outline: none;
+  border: 2px solid #ccc8c5;
+  cursor: pointer;
+  /* height: 100%; */
+}
+::-webkit-file-upload-button {
+  /* color: #fff; */
+  background-color: #dbdada;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  width: 20%;
+  /* background-color: #ff6f00; */
+}
+
+.bulk__upload__main__card > button {
+  width: 15%;
+  background-color: lightslategrey;
+  color: #fff;
+  outline: none;
+  border: none;
+  /* border: 2px solid #ff6f00; */
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  /* background-color: grey; */
+}
+
+@media (max-width: 768px) {
+  .bulk__upload__main__card {
+    flex-direction: column;
+  }
+  .upload__input__tag {
+    width: 100%;
+  }
+  .bulk__upload__main__card > button {
+    width: 100%;
+  }
+}

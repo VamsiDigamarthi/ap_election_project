@@ -1,0 +1,73 @@
+.download--user--pdfs-main--card {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  /* border: 2px solid red; */
+}
+
+.show--case--user--select--card {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .show--case--user--select--card {
+    margin-top: 30px;
+  }
+  .show--case--user--select--card > select {
+    width: 100%;
+  }
+  .show--case--user--select--card > button {
+    width: 100%;
+  }
+}
+
+.show--case--user--select--card > select {
+  width: 35%;
+  height: 40px;
+  /* border: 2px solid lightslategray; */
+  font-size: 18px;
+  /* border-radius: 8px; */
+}
+
+.show--case--user--select--card > button {
+  width: 170px;
+  padding: 10px;
+  background-color: orangered;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 9px;
+  height: 40px;
+}
+
+.user--main--padfs--as--super-adamin {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 100%;
+}
+
+.majuli-card-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 50px;
+}
+
+.majuli-card-main > div {
+  display: flex;
+  gap: 2rem;
+}
+.majuli-card-main > div > button {
+  width: 200px;
+  padding: 10px;
+  background-color: orangered;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 9px;
+}

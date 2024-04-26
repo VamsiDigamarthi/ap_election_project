@@ -1,0 +1,54 @@
+.main-majuli {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.user-pdf-button-with-dist {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-pdf-button-with-dist > h2 {
+  color: orangered;
+}
+
+.user-pdf-button-with-dist > button {
+  width: 170px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: orangered;
+  color: #fff;
+}
+
+.second-majuli-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  page-break-after: always !important;
+}
+
+.single-majuli-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 2px solid lightslategray;
+  border-radius: 8px;
+  width: 29%;
+  height: 300px;
+  padding: 20px;
+  /*page-break-after: always;*/
+}
+
+.single-majuli-card > img {
+  width: 100%;
+  height: 80%;
+}

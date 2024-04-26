@@ -1,0 +1,12 @@
+.not__access__main__card {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not__access__main__card > img {
+  width: 60%;
+}

@@ -1,0 +1,96 @@
+.district__coor__payment {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-y: scroll;
+  /* border: 2px solid red; */
+}
+
+.all__payment__users__main {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  padding: 10px;
+}
+
+.payment__recevied__single__user__card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 31%;
+  /* border: 2px solid red; */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.payment__recevied__single__user__card > span > span {
+  color: rgb(250, 226, 13);
+  font-size: 18px;
+  /* color: rgba(13, 250, 210, 0.808); */
+}
+
+.payment__recevied__single__user__card > button {
+  height: 35px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  /* background-color: rgb(216, 58, 19); */
+
+  /* background-color: rgb(19, 216, 19); */
+}
+
+@media (max-width: 480px) {
+  .payment__recevied__single__user__card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .payment__recevied__single__user__card {
+    width: 48%;
+  }
+}
+
+.payment_input_card {
+  width: 100%;
+  /* border: 2px solid red; */
+  height: 40px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  border: 1px solid #ff5c41;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.payment_input_card > input {
+  width: 85%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  font-size: 18px;
+}
+
+.payment_input_card > button {
+  width: 15%;
+  height: 100%;
+  border: none;
+  background-color: #ff5c41;
+  color: #fff;
+  font-size: 19px;
+}
+
+@media (max-width: 768px) {
+  .payment_input_card {
+    margin-top: 30px;
+  }
+}
